@@ -1,9 +1,9 @@
 '''import os
-import main
+import fetch_data
 import pandas as pd
 
 # Fetch data
-data = main.fetch_hotels_price()
+data = fetch_data.fetch_hotels_price()
 
 if not data:
     print("No data returned from API.")
